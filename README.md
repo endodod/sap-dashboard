@@ -2,8 +2,6 @@
 
 A public dashboard visualising what a reinforcement learning agent learned playing Super Auto Pets. Part of a three-repo project spanning game simulation, agent training, and data analysis.
 
-**Live at [paulkuehn.ch](https://sap.paulkuehn.ch)**
-
 ---
 
 ## The project
