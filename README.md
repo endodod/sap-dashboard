@@ -10,7 +10,7 @@ A public dashboard visualising what a reinforcement learning agent learned playi
 
 This is the frontend for an end-to-end ML pipeline:
 
-1. [**sap-simulation**](https://github.com/endodod/sap-simulation) — a Python simulation of SAP used as the training environment
+1. [**sap-sim**](https://github.com/endodod/sap-sim) — a Python simulation of SAP used as the training environment
 2. [**sap-agent**](https://github.com/endodod/sap-agent) — a reinforcement learning agent (PPO) trained against the simulation
 3. **sap-dashboard** ← you are here — a Next.js app showing what the agent discovered
 
