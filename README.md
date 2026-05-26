@@ -19,6 +19,10 @@ This is the frontend for an end-to-end ML pipeline:
 - **Training curves** — reward and win rate over training time
 - **Matchup simulator** — input two teams, get a live battle result from the sim
 
+## Live
+
+[sap.paulkuehn.ch](https://sap.paulkuehn.ch)
+
 ## Stack
 
 Next.js · TypeScript · Vercel
