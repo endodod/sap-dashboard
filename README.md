@@ -4,6 +4,10 @@ A public dashboard visualising what a reinforcement learning agent learned playi
 
 ---
 
+## Live
+
+[sap.paulkuehn.ch](https://sap.paulkuehn.ch)
+
 ## The project
 
 This is the frontend for an end-to-end ML pipeline:
@@ -18,10 +22,6 @@ This is the frontend for an end-to-end ML pipeline:
 - **Synergy explorer** — which pet pairs the agent learned to combine
 - **Training curves** — reward and win rate over training time
 - **Matchup simulator** — input two teams, get a live battle result from the sim
-
-## Live
-
-[sap.paulkuehn.ch](https://sap.paulkuehn.ch)
 
 ## Stack
 
