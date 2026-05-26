@@ -25,4 +25,4 @@ Next.js · TypeScript · Vercel
 
 ## Status
 
-Under active development — Summer 2025.
+Under active development
