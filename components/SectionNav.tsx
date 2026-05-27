@@ -2,15 +2,17 @@
 import { useEffect, useState } from "react";
 
 const SECTIONS = [
-  { id: "results",     label: "02 Results" },
-  { id: "tier-list",   label: "03 Tier List" },
-  { id: "synergies",   label: "04 Synergies" },
-  { id: "performance", label: "05 Performance" },
-  { id: "spotlight",   label: "06 Spotlight" },
-  { id: "training",    label: "07 Training" },
+  { id: "results",     label: "01 Results" },
+  { id: "tier-list",   label: "02 Tier List" },
+  { id: "synergies",   label: "03 Synergies" },
+  { id: "performance", label: "04 Performance" },
+  { id: "spotlight",   label: "05 Spotlight" },
+  { id: "training",    label: "06 Training" },
+  { id: "simulate",    label: "07 Simulate" },
+  { id: "simulator",   label: "08 Battle" },
 ];
 
-export default function SectionNav({ runLabel }: { runLabel: string }) {
+export default function SectionNav() {
   const [active, setActive] = useState("");
 
   useEffect(() => {
@@ -39,16 +41,6 @@ export default function SectionNav({ runLabel }: { runLabel: string }) {
       }}
     >
       <div className="flex items-center px-6 md:px-12 lg:px-20 h-10 min-w-max gap-1">
-        {/* Run label */}
-        <span
-          className="text-xs mr-3 flex-shrink-0"
-          style={{ fontFamily: "var(--font-mono)", color: "var(--acid)", opacity: 0.7 }}
-        >
-          {runLabel}
-        </span>
-
-        <div className="w-px h-3 mr-3 flex-shrink-0" style={{ background: "var(--border)" }} />
-
         {SECTIONS.map((s) => (
           <a
             key={s.id}
